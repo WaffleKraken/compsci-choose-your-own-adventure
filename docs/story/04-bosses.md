@@ -7,7 +7,7 @@ Encounters on the road to the casino.
 - The user walks along the road and comes across a mugger.
 - The mugger threatens to steal their money.
 
-**Choice:** fight or flight.
+**Choice:** fight or flight (50% chance of being caught and forced to fight).
 
 If they fight, a PvP battle starts. Health is tracked for both sides, and each turn the user can:
 
@@ -18,6 +18,9 @@ If they fight, a PvP battle starts. Health is tracked for both sides, and each t
 | Deflect | 2 turns |
 
 The mugger has the same options.
+Mugger has same stats as player (100 health)
+
+-If user loses then they lose $50
 
 ## Boss 2: Beggar
 
@@ -26,8 +29,10 @@ The mugger has the same options.
 **Choice:** give her $10 or leave.
 
 If they give her $10:
-- 70% chance of receiving a $100 prize
+- 60% chance of receiving a $100 prize
 - 1% chance of having their IRS debt forgiven
+(Cannot both happen)
+- Cannot give money you don't have
 
 ## Boss 3: Kind Samaritan
 
@@ -41,18 +46,10 @@ If they take it, there's a 2% chance they get kidnapped. Kidnapped = game over.
 
 - The user sees a Popeyes and really wants some fried chicken.
 - $8 is deducted from their balance.
-
+- No money = game lost
 ## Boss 5: Snake
 
 - The user is bitten by a snake.
 
-**Choice:** buy ointment to disinfect it, or skip it and face a 30% chance of dying.
+**Choice:** buy ointment ($15) to disinfect it, or skip it and face a 30% chance of dying (game over).
 
-## Open questions
-
-- [ ] Mugger: what happens if the user chooses **flight**?
-- [ ] Mugger: what happens if the user **loses** the fight? Game over, or just lose money?
-- [ ] Mugger: starting health and damage numbers for both sides.
-- [ ] Beggar: can the 70% $100 prize and the 1% debt forgiveness both happen, or only one?
-- [ ] Beggar and Hunger: what if the user can't afford the $10 or the $8?
-- [ ] Snake: does the ointment cost money?
