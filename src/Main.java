@@ -9,8 +9,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("=== Choose Your Own Adventure ===");
-        System.out.println();
+        System.out.println("===The story of a man who owes the IRS $6,700=== ");
+        System.out.println("By: Rob");
 
         // TODO Chapter 1: Crippling Debt (docs/story/01-crippling-debt.md)
         //   The IRS calls: pay $6700 or face jail time.
