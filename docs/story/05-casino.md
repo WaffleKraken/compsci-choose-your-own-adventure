@@ -4,9 +4,6 @@
 - They're greeted by the doorman, who offers to guide them to a tutorial.
 - The tutorial consists of a tour of the casino
 - Gambling games: blackjack, poker, roulette, slots, and horse racing 
-
-## Open questions
-
-- [ ] How does the user win or lose overall? Is winning reaching $6,700 to pay the IRS?
-- [ ] What happens if the user skips the doorman's tutorial?
-- [ ] Can the user play the games in any order and switch between them, or is there a set path?
+- Winning is reaching a $6,700 budget to pay IRS
+- User cannot skip tutorial, rather they can spam through it
+- User can play games in any order
