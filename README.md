@@ -21,7 +21,13 @@ The story is still being written. The working draft lives in the [Google Doc out
 │       ├── 03-road-to-casino.md
 │       ├── 04-bosses.md
 │       └── 05-casino.md
-└── src/                 Java source files go here (empty for now)
+├── .vscode/settings.json Tells VS Code that Java code lives in src/
+└── src/                 Your Java code (see src/README.md)
+    ├── Main.java            (you'll create this) runs the game
+    ├── chapters/            one class per chapter
+    ├── bosses/              one class per boss
+    ├── minigames/           order game, mugger fight, casino games
+    └── player/              money, health, IRS debt
 ```
 
 ## Working on this from more than one computer

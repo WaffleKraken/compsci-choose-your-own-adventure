@@ -9,7 +9,7 @@ Snapshot of the [Google Doc](https://docs.google.com/document/d/1hlTt3nQx5bQafac
 | 2 | J\*b | [02-job.md](02-job.md) | Drafted |
 | 3 | On the Way to the Casino | [03-road-to-casino.md](03-road-to-casino.md) | Drafted |
 | 4 | Bosses | [04-bosses.md](04-bosses.md) | 5 bosses drafted |
-| 5 | Casino Pt. 1 | [05-casino.md](05-casino.md) | Just started |
+| 5 | Casino Pt. 1 | [05-casino.md](05-casino.md) | Started (tutorial and game list) |
 
 ## How the chapters connect
 
@@ -30,6 +30,7 @@ Crippling Debt (IRS calls)
                                                  |
                                                  v
                                      Casino Pt. 1 (Hard Rock)
+                     (tutorial tour; blackjack, poker, roulette, slots, horse racing)
                                                  |
                                                  v
                                         ??? (not written yet)
