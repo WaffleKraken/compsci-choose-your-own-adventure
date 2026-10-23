@@ -1,0 +1,3 @@
+# Details
+
+**Theme:** Gambling

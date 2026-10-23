@@ -1,0 +1,15 @@
+# Compiled Java files
+*.class
+bin/
+out/
+target/
+
+# VS Code workspace files that differ between computers
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
