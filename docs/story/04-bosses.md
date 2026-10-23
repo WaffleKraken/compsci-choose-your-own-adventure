@@ -47,3 +47,12 @@ If they take it, there's a 2% chance they get kidnapped. Kidnapped = game over.
 - The user is bitten by a snake.
 
 **Choice:** buy ointment to disinfect it, or skip it and face a 30% chance of dying.
+
+## Open questions
+
+- [ ] Mugger: what happens if the user chooses **flight**?
+- [ ] Mugger: what happens if the user **loses** the fight? Game over, or just lose money?
+- [ ] Mugger: starting health and damage numbers for both sides.
+- [ ] Beggar: can the 70% $100 prize and the 1% debt forgiveness both happen, or only one?
+- [ ] Beggar and Hunger: what if the user can't afford the $10 or the $8?
+- [ ] Snake: does the ointment cost money?

@@ -9,10 +9,11 @@ The story is still being written. The working draft lives in the [Google Doc out
 ```
 .
 ├── README.md            You are here
+├── CLAUDE.md            Instructions Claude follows when working on this repo
 ├── .gitignore           Keeps compiled .class files and OS junk out of GitHub
 ├── docs/
-│   ├── open-questions.md    Gaps and decisions still to make in the story
-│   └── story/               The story outline, one file per chapter
+│   └── story/           The story outline, one page per chapter;
+│                        each page ends with its own open questions
 │       ├── README.md            Chapter list and flow chart
 │       ├── 00-details.md
 │       ├── 01-crippling-debt.md

@@ -35,4 +35,6 @@ Crippling Debt (IRS calls)
                                         ??? (not written yet)
 ```
 
+Each chapter page ends with an **Open questions** section listing what's still undecided for that part of the story.
+
 Possible game-over points so far: losing the mugger fight, getting kidnapped by the Samaritan, dying from the snake bite.

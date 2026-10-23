@@ -8,3 +8,8 @@
 - The user earns $15 per hour and realizes it isn't enough to pay the IRS.
 
 **Choice:** give up, or head to the casino ([Chapter 3](03-road-to-casino.md)).
+
+## Open questions
+
+- [ ] What happens if the user chooses **give up**? Needs an ending.
+- [ ] Rules for the memory game: how many orders, how many rounds, what counts as failing?
