@@ -1,4 +1,4 @@
-public class Main {
+public class ch1
     public static void main(String[] args) {
         System.out.println("Chapter 1: Crippling Debt");
         System.out.println("You are a broke college student who just spent all your money on Claude tokens.");
