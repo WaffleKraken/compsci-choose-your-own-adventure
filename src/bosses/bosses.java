@@ -1,4 +1,4 @@
-public class Main {
+public class bosses
     public static void main(String[] args) {
         System.out.println("Welcome to Rob's game");
       
