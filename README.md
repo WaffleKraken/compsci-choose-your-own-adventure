@@ -12,6 +12,7 @@ The story is still being written. The working draft lives in the [Google Doc out
 ├── CLAUDE.md            Instructions Claude follows when working on this repo
 ├── .gitignore           Keeps compiled .class files and OS junk out of GitHub
 ├── docs/
+│   ├── story-map.pdf    Printable map of the whole story (branches, bosses, endings)
 │   └── story/           The story outline, one page per chapter;
 │                        each page ends with its own open questions
 │       ├── README.md            Chapter list and flow chart

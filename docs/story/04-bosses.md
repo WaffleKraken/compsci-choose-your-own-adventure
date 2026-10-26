@@ -53,3 +53,8 @@ If they take it, there's a 2% chance they get kidnapped. Kidnapped = game over.
 
 **Choice:** buy ointment ($15) to disinfect it, or skip it and face a 30% chance of dying (game over).
 
+## Open questions
+
+- [ ] Is losing the mugger fight a game over, or does the player just lose $50? This page says $50; the [story overview](README.md) lists it as a game over.
+- [ ] What happens the other 98% of the time the user takes the Samaritan's ride? If it drives them to the casino, it skips Hunger and the Snake.
+- [ ] Does the 1% IRS debt forgiveness from the Beggar end the game on the spot, or does the user keep going to the casino?

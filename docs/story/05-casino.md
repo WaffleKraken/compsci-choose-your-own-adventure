@@ -7,3 +7,8 @@
 - Winning is reaching a $6,700 budget to pay IRS
 - User cannot skip tutorial, rather they can spam through it
 - User can play games in any order
+
+## Open questions
+
+- [ ] How does the user lose at the casino? Hitting $0, a turn limit, the IRS deadline?
+- [ ] "Casino Pt. 1" suggests a Pt. 2. What happens after the user reaches $6,700?
