@@ -6,7 +6,7 @@
 
 ## Tracking variables
 
-These are the values the game remembers from one chapter to the next. The [story map](../story-map.pdf) marks every spot where each one changes (green tags) and every spot where the game checks it (orange diamonds).
+These are the values the game remembers from one chapter to the next. The [story map](../story-map.pdf) marks every spot where each one changes (green boxes) and every spot where the game checks it (orange diamonds).
 
 | Variable | Type | Starts at | Changes in | Checked in |
 |----------|------|-----------|------------|------------|
