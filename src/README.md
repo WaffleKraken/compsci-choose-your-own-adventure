@@ -5,10 +5,10 @@ All Java files go somewhere inside this `src/` folder.
 | Folder | What goes in it | Story pages |
 |--------|-----------------|-------------|
 | `src/` (here) | `Main.java`, the file you run. It starts the game and moves the player from chapter to chapter. | [Story overview](../docs/story/README.md) |
-| [`chapters/`](chapters/) | One class per chapter: the story text and the choices the player makes. | Chapters 1, 2, 3, 5 |
+| [`chapters/`](chapters/) | One class per chapter: the story text and the choices the player makes. | Chapters 1, 2, 3, 5, 6, Endings |
 | [`bosses/`](bosses/) | One class per boss on the road to the casino. | [Bosses](../docs/story/04-bosses.md) |
 | [`minigames/`](minigames/) | Anything the player actually plays: the McDonald's order game, the mugger fight, the casino games. | Chapters 2, 4, 5 |
-| [`player/`](player/) | What the player carries between chapters: money, health, IRS debt. | All |
+| [`player/`](player/) | What the player carries between chapters: money, IRS debt, and the other [tracking variables](../docs/story/00-details.md#tracking-variables). | All |
 
 ## The one rule about folders in Java
 

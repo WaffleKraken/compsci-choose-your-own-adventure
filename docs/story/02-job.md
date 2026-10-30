@@ -1,19 +1,30 @@
 # Chapter 2: J\*b
 
-- The user has an array of ways to make money.
-- The user applies to McDonald's and gets a job flipping patties.
+- You apply to McDonald's and get hired as a cashier.
+- Your first customer orders 600 water cups. Your boss says you have to do it.
 
-**Minigame:** memory game where you have to memorize people's orders.
+**Minigame: order memory game** (`ordersServed = 0`, `strikes = 0` at the start)
 
-- The user earns $1 per time they type "Serve order"
-- User is given the choice after they type "Serve Order" ten times to quit or continue.
-- User realizes it isn't enough to pay the IRS and quit to gamble.
+1. A customer's order shows on screen for 3 seconds, then the screen clears.
+2. You type the order back.
+3. Right order: you "Serve order" and earn $1 (`money += 1`).
+   Wrong order: `strikes += 1`. At **3 strikes** you're fired and head to the casino anyway ([Chapter 3](03-road-to-casino.md)).
+4. Either way, `ordersServed += 1`.
 
-**Choice:** give up, or head to the casino ([Chapter 3](03-road-to-casino.md)).
+**Choice (every 10 orders, on your break):**
+
+1. Keep working → back to the memory game.
+2. Quit and go gamble → [Chapter 3](03-road-to-casino.md). You keep the money you earned.
+3. Give up and accept your fate → **Ending 2: Lifer**. At $1 an order you need 6,700 orders. You flip patties for 22 years, get promoted to shift manager, and finally pay the IRS off. You never touch Claude again. Mostly.
+
+The shift ends at **30 orders**. After that, "keep working" is gone and you have to pick quit or give up.
+
+The most you can bring out of the job is $30, which makes the road a little safer than going straight to the casino.
 
 ## Open questions
 
-- [ ] What happens if the user chooses **give up**? Needs an ending.
-- [ ] Where does the memory game fit with typing "Serve order"? Does the user have to remember the order correctly before they get the $1?
-- [ ] If the user chooses **continue** after ten orders, when does the job end? At $1 an order, it would take 6,700 orders to pay off the IRS.
-- [ ] Is "quit" after ten orders the same as heading to the casino, or a separate choice from "give up"?
+- [x] What happens if the user chooses **give up**? *Ending 2: Lifer.*
+- [x] Where does the memory game fit with typing "Serve order"? *You only get the $1 if you type the order back correctly.*
+- [x] If the user chooses **continue** after ten orders, when does the job end? *The shift ends at 30 orders.*
+- [x] Is "quit" after ten orders the same as heading to the casino, or a separate choice from "give up"? *Separate. Quit = casino, give up = Lifer ending.*
+- [ ] How long should orders get? Maybe start with 2 items and add one every 10 orders.

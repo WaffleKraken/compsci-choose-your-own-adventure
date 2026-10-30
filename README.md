@@ -12,7 +12,7 @@ The story is still being written. The working draft lives in the [Google Doc out
 ├── CLAUDE.md            Instructions Claude follows when working on this repo
 ├── .gitignore           Keeps compiled .class files and OS junk out of GitHub
 ├── docs/
-│   ├── story-map.pdf    Printable map of the whole story (branches, bosses, endings)
+│   ├── story-map.pdf    Printable story map: every choice, variable, and ending
 │   └── story/           The story outline, one page per chapter;
 │                        each page ends with its own open questions
 │       ├── README.md            Chapter list and flow chart
@@ -21,14 +21,16 @@ The story is still being written. The working draft lives in the [Google Doc out
 │       ├── 02-job.md
 │       ├── 03-road-to-casino.md
 │       ├── 04-bosses.md
-│       └── 05-casino.md
+│       ├── 05-casino.md
+│       ├── 06-cashing-out.md
+│       └── 07-endings.md
 ├── .vscode/settings.json Tells VS Code that Java code lives in src/
 └── src/                 Your Java code (see src/README.md)
     ├── Main.java            runs the game (start here)
     ├── chapters/            one class per chapter
     ├── bosses/              one class per boss
     ├── minigames/           order game, mugger fight, casino games
-    └── player/              money, health, IRS debt
+    └── player/              money, IRS debt, and the other tracking variables
 ```
 
 ## Working on this from more than one computer

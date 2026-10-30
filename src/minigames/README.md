@@ -11,3 +11,4 @@ The parts of the game the player actually plays. Each file starts with `package 
 | `Roulette.java` | Chapter 5 |
 | `Slots.java` | Chapter 5 |
 | `HorseRacing.java` | Chapter 5 |
+| `HighRoller.java` | [Chapter 6](../../docs/story/06-cashing-out.md): double or nothing, 48% to win |
